@@ -1,0 +1,30 @@
+
+.overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.184); 
+    z-index: 9999;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .content {
+    background-color:#212633; 
+    width: 80%; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
+    height: 80vh;
+  }
+  mat-card {
+    height: 150px;
+    width: 40%; 
+    margin: 18% auto;
+    padding: 46px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+    background-color: red;
+  }
