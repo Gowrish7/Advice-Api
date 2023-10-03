@@ -1,0 +1,40 @@
+/* ==========================================================================
+   Base styles
+   ========================================================================== */
+
+html {
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #111;
+}
+
+a {
+  color: #069;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 3.2rem;
+  line-height: 1.2em;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  color: #555;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
